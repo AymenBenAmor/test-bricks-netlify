@@ -1,3 +1,4 @@
+import { website } from 'react-bricks-ui';
 import { types } from 'react-bricks/frontend'
 
 import HeroUnit from './custom/MyHeroUnit'
@@ -16,6 +17,10 @@ const bricks: types.Theme[] = [
       {
         categoryName: 'Pokemon',
         bricks: [Pokemon], // External data Bricks
+      },
+      {
+        categoryName: 'Website',
+        bricks: [...website], // External data Bricks
       },
     ],
   },
